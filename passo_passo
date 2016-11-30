@@ -1,0 +1,24 @@
+atualizar o nodeJs
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable
+
+sudo ln -sf /usr/local/n/versions/node/<VERSION>/bin/node /usr/bin/node
+
+GitHub via ssh com keygen
+ssh-keygen -t rsa -C "edson.egger@gmail.com"
+ssh-add id_rsa
+-- no github precisa add a chave publica
+
+-- para testar o login
+ssh -T gh
+
+
+--- criar uma nova app no Ionic
+ionic start <nomeApp> <template> --v2 --ts
+                      black       forçar v2     typescript
+                      tutorial
+                      tabs
+
+-- start
+ionic serve
