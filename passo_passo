@@ -42,9 +42,12 @@ git config --global user.email "edson.egger@gmail.com"
 -- add o repositorio remoto
 git remote add origin git@github.com:edsonegger/ionic-2.git
 				-- alias para o repositorio 
-				
+
 -- listar as configurações
 git config --list --local
 
 -- enviando para o github
 git push origin master
+
+-- pegando do github
+git pull origin master
