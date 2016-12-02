@@ -7,6 +7,7 @@ import {ConnectionService} from './providers/connection-service/connection-servi
 import {HomePage} from './pages/home/home';
 import {MenuTestPage} from './pages/menu-test/menu-test';
 import {GeneratedTestPage} from './pages/generated-test/generated-test';
+import {AlertPage} from './pages/alert/alert';
 
 
 
@@ -23,7 +24,8 @@ export class MyApp {
   	this.pages = [
   		{component: HomePage, title: 'Home', icon: 'home'},
 		  {component: MenuTestPage, title: 'Menu Page', icon: 'menu'},
-      {component: GeneratedTestPage, title: 'Generated Page', icon: 'menu'}
+      {component: GeneratedTestPage, title: 'Generated Page', icon: 'menu'},
+      {component: AlertPage, title: 'Alert Page', icon: 'warning'}
   	];
 
 
