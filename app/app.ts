@@ -32,6 +32,10 @@ export class MyApp {
   	this.rootPage = page.component;
   	this.menuCtrl.close(menuSide);
   }
+
+  menuOpened() : void {
+    console.log('abriu menu 2');
+  }
 }
 
 ionicBootstrap(MyApp, [], {
