@@ -1,0 +1,45 @@
+<!--
+  Generated template for the ListTestPage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-navbar *navbar>
+  <button menuToggle>
+  	<ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-title>list-test</ion-title>
+</ion-navbar>
+
+<ion-content padding class="list-test">
+  
+<ion-list>
+	<ion-item-group>
+		<ion-item-divider>GoT</ion-item-divider>
+		<ion-item *ngFor="let p of personagensGoT">{{ p }}</ion-item>
+	</ion-item-group>
+
+	<ion-item-group>
+		<ion-item-divider>HP</ion-item-divider>
+		<ion-item *ngFor="let p of personagensHP">{{ p }}</ion-item>
+	</ion-item-group>
+
+	<ion-item-group>
+		<ion-item-divider>GoT</ion-item-divider>
+		<ion-item-sliding *ngFor="let p of personagensGoT">
+			<ion-item >{{ p }}</ion-item>
+			<ion-item-options>
+				<button>
+					<ion-icon name="more"></ion-icon>
+					Det
+				</button>
+				<button secondary>
+					<ion-icon danger  name="text"></ion-icon>
+					Msg
+				</button>
+			</ion-item-options>
+		</ion-item-sliding>
+	</ion-item-group>
+</ion-list>
+
+</ion-content>
