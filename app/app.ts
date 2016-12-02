@@ -13,6 +13,7 @@ import {CardTestPage} from './pages/card-test/card-test';
 import {InputTestPage} from './pages/input-test/input-test';
 import {ListTestPage} from './pages/list-test/list-test';
 import {GridTestPage} from './pages/grid-test/grid-test';
+import {ModalTestPage} from './pages/modal-test/modal-test';
 
 @Component({
   templateUrl: 'build/app.html'
@@ -33,7 +34,8 @@ export class MyApp {
       {component: CardTestPage, title: 'Card page exemple', icon: 'card'},
       {component: InputTestPage, title: 'Input page example', icon: 'input'},
       {component: ListTestPage, title: 'List page example', icon: 'list'},
-      {component: GridTestPage, title: 'Grid page example', icon: 'grid'}
+      {component: GridTestPage, title: 'Grid page example', icon: 'grid'},
+      {component: ModalTestPage, title: 'Modal page example', icon: 'document'}
       
   	];
 
