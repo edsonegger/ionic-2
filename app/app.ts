@@ -12,6 +12,7 @@ import {ButtonTestPage} from './pages/button-test/button-test';
 import {CardTestPage} from './pages/card-test/card-test';
 import {InputTestPage} from './pages/input-test/input-test';
 import {ListTestPage} from './pages/list-test/list-test';
+import {GridTestPage} from './pages/grid-test/grid-test';
 
 @Component({
   templateUrl: 'build/app.html'
@@ -31,7 +32,9 @@ export class MyApp {
       {component: ButtonTestPage, title: 'Button page exemple', icon: 'power'},
       {component: CardTestPage, title: 'Card page exemple', icon: 'card'},
       {component: InputTestPage, title: 'Input page example', icon: 'input'},
-      {component: ListTestPage, title: 'List page example', icon: 'list'}      
+      {component: ListTestPage, title: 'List page example', icon: 'list'},
+      {component: GridTestPage, title: 'Grid page example', icon: 'grid'}
+      
   	];
 
 
