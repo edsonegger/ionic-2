@@ -10,6 +10,7 @@ import {GeneratedTestPage} from './pages/generated-test/generated-test';
 import {AlertPage} from './pages/alert/alert';
 import {ButtonTestPage} from './pages/button-test/button-test';
 import {CardTestPage} from './pages/card-test/card-test';
+import {InputTestPage} from './pages/input-test/input-test';
 
 @Component({
   templateUrl: 'build/app.html'
@@ -27,7 +28,8 @@ export class MyApp {
       {component: GeneratedTestPage, title: 'Generated Page', icon: 'menu'},
       {component: AlertPage, title: 'Alert Page', icon: 'warning'},
       {component: ButtonTestPage, title: 'Button page exemple', icon: 'power'},
-      {component: CardTestPage, title: 'Card page exemple', icon: 'card'}
+      {component: CardTestPage, title: 'Card page exemple', icon: 'card'},
+      {component: InputTestPage, title: 'Input page example', icon: 'input'}
   	];
 
 
