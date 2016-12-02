@@ -9,7 +9,7 @@ import {MenuTestPage} from './pages/menu-test/menu-test';
 import {GeneratedTestPage} from './pages/generated-test/generated-test';
 import {AlertPage} from './pages/alert/alert';
 import {ButtonTestPage} from './pages/button-test/button-test';
-
+import {CardTestPage} from './pages/card-test/card-test';
 
 @Component({
   templateUrl: 'build/app.html'
@@ -23,10 +23,11 @@ export class MyApp {
 
   	this.pages = [
   		{component: HomePage, title: 'Home', icon: 'home'},
-		  {component: MenuTestPage, title: 'Menu Page', icon: 'menu'},
+		  {component: MenuTestPage, title: 'Menu Page', icon: 'snow'},
       {component: GeneratedTestPage, title: 'Generated Page', icon: 'menu'},
       {component: AlertPage, title: 'Alert Page', icon: 'warning'},
-      {component: ButtonTestPage, title: 'Button page exemple', icon: 'button'}
+      {component: ButtonTestPage, title: 'Button page exemple', icon: 'power'},
+      {component: CardTestPage, title: 'Card page exemple', icon: 'card'}
   	];
 
 
