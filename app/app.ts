@@ -19,6 +19,7 @@ import {TabTestPage} from './pages/tab-test/tab-test';
 import {ToastTestPage} from './pages/toast-test/toast-test';
 import {ToolbarTestPage} from './pages/toolbar-test/toolbar-test';
 import {DataTimeTestPage} from './pages/data-time-test/data-time-test';
+import {FabsTestPage} from './pages/fabs-test/fabs-test';
 
 @Component({
   templateUrl: 'build/app.html'
@@ -45,7 +46,8 @@ export class MyApp {
       {component: TabTestPage, title: 'tab page example', icon: 'construct'},
       {component: ToastTestPage, title: 'Toast page example', icon: 'chatboxes'},
       {component: ToolbarTestPage, title: 'Toolbar page example', icon: 'barcode'},
-      {component: DataTimeTestPage, title: 'DateTime page example', icon: 'clock'}
+      {component: DataTimeTestPage, title: 'DateTime page example', icon: 'clock'},
+      {component: FabsTestPage, title: 'Fabs page example', icon: 'add-circle'}
 
   	];
 
