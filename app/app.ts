@@ -16,6 +16,7 @@ import {GridTestPage} from './pages/grid-test/grid-test';
 import {ModalTestPage} from './pages/modal-test/modal-test';
 import {NavigationTestPage} from './pages/navigation-test/navigation-test';
 import {TabTestPage} from './pages/tab-test/tab-test';
+import {ToastTestPage} from './pages/toast-test/toast-test';
 
 @Component({
   templateUrl: 'build/app.html'
@@ -39,7 +40,8 @@ export class MyApp {
       {component: GridTestPage, title: 'Grid page example', icon: 'grid'},
       {component: ModalTestPage, title: 'Modal page example', icon: 'document'},
       {component: NavigationTestPage, title: 'Navigation page example', icon: 'navigate'},
-      {component: TabTestPage, title: 'tab page example', icon: 'construct'}
+      {component: TabTestPage, title: 'tab page example', icon: 'construct'},
+      {component: ToastTestPage, title: 'Toast page example', icon: 'chatboxes'}
   	];
 
 
