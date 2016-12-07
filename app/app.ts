@@ -18,6 +18,7 @@ import {NavigationTestPage} from './pages/navigation-test/navigation-test';
 import {TabTestPage} from './pages/tab-test/tab-test';
 import {ToastTestPage} from './pages/toast-test/toast-test';
 import {ToolbarTestPage} from './pages/toolbar-test/toolbar-test';
+import {DataTimeTestPage} from './pages/data-time-test/data-time-test';
 
 @Component({
   templateUrl: 'build/app.html'
@@ -43,7 +44,9 @@ export class MyApp {
       {component: NavigationTestPage, title: 'Navigation page example', icon: 'navigate'},
       {component: TabTestPage, title: 'tab page example', icon: 'construct'},
       {component: ToastTestPage, title: 'Toast page example', icon: 'chatboxes'},
-      {component: ToolbarTestPage, title: 'Toolbar page example', icon: 'barcode'}
+      {component: ToolbarTestPage, title: 'Toolbar page example', icon: 'barcode'},
+      {component: DataTimeTestPage, title: 'DateTime page example', icon: 'clock'}
+
   	];
 
 

@@ -7,8 +7,9 @@ import { MenuTestPage } from '../menu-test/menu-test';
   templateUrl: 'build/pages/home/home.html'
 })
 export class HomePage {
-  constructor(private navController: NavController) {
 
+  constructor(private navController: NavController) {
+	
   }
 
   pushPage() : void {
