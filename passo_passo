@@ -13,6 +13,10 @@ ssh-add id_rsa
 -- para testar o login
 ssh -T gh
 
+-- instalar ionic e o cordova
+npm install ionic
+npm install cordova
+npm list -g --depth=0
 
 --- criar uma nova app no Ionic
 ionic start <nomeApp> <template> --v2 --ts
